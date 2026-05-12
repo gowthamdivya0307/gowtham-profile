@@ -20,6 +20,7 @@ const projects = [
     task: "Build a smart safety sensor that uses AI to distinguish 'safe' vs 'dangerous' conditions and trigger immediate alerts — reliable enough to act on in milliseconds.",
     action: "Developed the core AI model for environmental classification and integrated hardware sensors with software for real-time data collection. Engineered a real-time data processing pipeline to feed the model and emit safety alerts.",
     result: "Reduced hazard response time from minutes to milliseconds. Achieved high detection accuracy and minimised false alarms. Project earned us rank 71 / 500+ at the B2G AI Hackathon (top 15%).",
+    liveDemo: "https://ai-powered-safety-sensor.vercel.app/#/dashboard",
   },
   {
     tags: ["Java", "UI", "Backend", "Data Viz"],
@@ -70,7 +71,7 @@ function ProjectsPage() {
             </div>
 
             <div className="mt-8 flex flex-wrap gap-3">
-              <a href="#" className="inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-5 py-2.5 text-sm font-medium hover:opacity-90 transition-opacity">
+              <a href={p.liveDemo ?? "#"} target={p.liveDemo ? "_blank" : undefined} rel={p.liveDemo ? "noopener noreferrer" : undefined} className="inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-5 py-2.5 text-sm font-medium hover:opacity-90 transition-opacity">
                 <ExternalLink className="w-3.5 h-3.5" /> Live demo
               </a>
               <a href="#" className="inline-flex items-center gap-2 rounded-full border border-border bg-surface/60 px-5 py-2.5 text-sm font-medium hover:bg-surface transition-colors">
