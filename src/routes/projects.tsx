@@ -21,7 +21,7 @@ const projects = [
     action: "Developed the core AI model for environmental classification and integrated hardware sensors with software for real-time data collection. Engineered a real-time data processing pipeline to feed the model and emit safety alerts.",
     result: "Reduced hazard response time from minutes to milliseconds. Achieved high detection accuracy and minimised false alarms. Project earned us rank 71 / 500+ at the B2G AI Hackathon (top 15%).",
     liveDemo: "https://ai-powered-safety-sensor.vercel.app/#/dashboard",
-    code:"https://github.com/gowthamdivya0307/Ai_powered_safety_sensor.git",
+    Code:"https://github.com/gowthamdivya0307/Ai_powered_safety_sensor.git",
   },
   {
     tags: ["Java", "UI", "Backend", "Data Viz"],
