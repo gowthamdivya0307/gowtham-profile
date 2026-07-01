@@ -13,7 +13,7 @@ export const Route = createFileRoute("/about")({
 
 const timeline = [
   { year: "2021", title: "School foundation", body: "Completed 11th & 12th at Don Bosco School (State Board). First exposure to programming logic — the moment I realised code could automate the tedious." },
-  { year: "2023", title: "B.Tech graduation", body: "Graduated with a Bachelor of Technology from Sri Sairam Institute of Technology. Built a strong foundation in C, Java, Python and core CS concepts." },
+  { year: "2027", title: "B.Tech graduation", body: "Graduated with a Bachelor of Technology from Sri Sairam Institute of Technology. Built a strong foundation in C, Java, Python and core CS concepts." },
   { year: "2024", title: "AI internship", body: "Completed an internship at Plasmid Company in the AI domain (online). Developed a spam news detection project using AI tools — my first taste of applied machine learning." },
   { year: "2025", title: "B2G AI Hackathon", body: "Ranked 71st out of 500+ participants (top 15%) at the B2G AI Hackathon, Sri Sairam Engineering College. Evaluated on innovation, technical execution, and real-world problem-solving." },
   { year: "2025", title: "AI Safety Monitoring System", body: "Built an AI-Integrated Safety Monitoring System as a team member — developed the core AI model to distinguish safe vs dangerous conditions and integrated hardware sensors for real-time alerts." },
