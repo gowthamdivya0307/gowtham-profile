@@ -16,7 +16,7 @@ const stats = [
   { label: "Year graduated", value: "2027", suffix: "B.Tech" },
   { label: "Projects built", value: "2+", suffix: "shipped" },
   { label: "Hackathon rank", value: "71", suffix: "/ 500+" },
-  { label: "Languages", value: "4", suffix: "fluent" },
+  { label: "Languages", value: "2", suffix: "fluent" },
 ];
 
 const stack = ["C", "Java", "Python", "HTML", "Flutter", "React", "Git", "VS Code", "Antigravity", "AI/ML"];
